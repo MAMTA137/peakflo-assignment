@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { BoardContext } from '../context/BoardContext';
 import TaskCard from './TaskCard';
 import { Droppable } from 'react-beautiful-dnd';
-import { Button, Dialog, DialogActions, DialogContent, DialogTitle, TextField, MenuItem, styled } from '@mui/material';
+import { Button, Dialog, DialogActions, DialogContent, DialogTitle, TextField, MenuItem } from '@mui/material';
 
 interface ColumnProps {
   status: string;

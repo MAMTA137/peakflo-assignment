@@ -54,14 +54,7 @@ const updateTask = (updatedTask: Task) => {
   };
   
   
-  const contextValue = {
-    tasks,
-    addTask,
-    updateTask,
-    deleteTask,
-    statuses,
-  };
-  
+
   const addStatus = (status: string) => {
     const updatedStatuses = [...statuses, status];
     setStatuses(updatedStatuses);
