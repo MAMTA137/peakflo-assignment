@@ -66,7 +66,7 @@ const TaskDetails: React.FC = () => {
         ))}
       </TextField>
       <div style={{ marginTop: '1rem' }}>
-        <Button variant="contained" onClick={handleSave} style={{ marginRight: '1rem',backgroundColor:"#960F1D" }}>
+        <Button variant="contained" onClick={handleSave} style={{ marginRight: '1rem',backgroundColor:"#39A93F" }}>
           Save
         </Button>
         <Button variant="contained" onClick={handleDelete}>
